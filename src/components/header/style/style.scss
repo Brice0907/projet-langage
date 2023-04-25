@@ -19,12 +19,17 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-right: 40px;
+        margin-right: 40px;
+        transition-duration: 1s;
 
         &_link {
             width: 30px;
             height: 30px;
             position: absolute;
         }
+    }
+
+    &_user:hover {
+        transform: rotate(360deg);
     }
 }
