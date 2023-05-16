@@ -4,49 +4,8 @@
     height: 100%;
     background: #191c20;
     font-family: 'Chakra Petch', sans-serif;
-
-    &_title {
-        text-align: center;
-        color: #8c7db0;
-    }
-
-    &_btn {
-        display: flex;
-        justify-content: space-around;
-
-        &_bloc {
-            background: #fa1e4e;
-            border-radius: 10px;
-            width: 50px;
-            height: 50px;
-            transition-duration: 0.3s;
-
-            &_link {
-                text-decoration: none;
-                color: black;
-                border-radius: 10px;
-
-                &_icon {
-                    font-size: 25px;
-                    height: 50px;
-                    width: 50px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-
-                }
-            }
-        }
-
-        &_bloc:hover {
-            background-color: #fa1e4ed3;
-            transform: scale(1.03);
-        }
-    }
-}
-
-.comingsoon {
-    color: red;
-    font-size: 20px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 25px;
 }
