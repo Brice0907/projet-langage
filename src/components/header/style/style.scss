@@ -8,10 +8,16 @@
     margin-bottom: 30px;
     background: #191c20;
 
-    &_title {
+    &_link {
+        text-decoration: none;
+        color: #fa1e4e;
         margin: auto;
-        font-size: 40px;
-        padding-left: 62px;
+
+        &_title {
+            margin: auto;
+            font-size: 40px;
+            padding-left: 82px;
+        }
     }
 
     &_user {

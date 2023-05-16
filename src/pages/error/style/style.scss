@@ -1,0 +1,26 @@
+.bloc_error {
+    width: 600px;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 220px;
+    font-family: 'Chakra Petch', sans-serif;
+
+    &_404 {
+        color: #fa1e4e;
+        font-size: 45px;
+    }
+
+    &_text {
+        color: #8c7db0;
+        margin-bottom: 3px;
+    }
+
+    &_link {
+        color: #8c7db0;
+    }
+}
