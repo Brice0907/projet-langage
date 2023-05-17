@@ -4,5 +4,6 @@ body {
   height: 200px;
   box-sizing: border-box;
   background: #21252b;
+  font-family: 'Chakra Petch', sans-serif;
   /* couleur de texte surement #fa1e4e et #8c7db0 */
 }

@@ -1,5 +1,5 @@
 export default function Documentation() {
-    return <>
-        Page Documentation
-    </>
+    return <div className="comingsoon">
+        Page Documentation Coming soon !
+    </div>
 }

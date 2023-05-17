@@ -1,4 +1,8 @@
 .main {
     display: flex;
     height: 700px;
+
+    &_page {
+        padding: 20px 40px;
+    }
 }
