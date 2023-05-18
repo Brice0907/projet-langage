@@ -1,0 +1,28 @@
+.icon {
+    width: 60px;
+    background: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    transition-duration: 0.3s;
+
+    &_img {
+        width: 80%;
+        transition-duration: 1s;
+    }
+
+    &_title {
+        font-weight: 600;
+    }
+}
+
+.icon:hover {
+    box-shadow: 0px 0px 5px 0px white;
+}
+
+.icon:hover .icon_img {
+    rotate: 360deg;
+}
