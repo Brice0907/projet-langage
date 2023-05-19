@@ -1,11 +1,11 @@
 import './style/style.scss';
 import Icon from '../icon/icon';
-import Filtre from '../filtre/filtre';
+import Navtop from '../navtop/navtop';
 
 export default function Nav() {
 
     return <div className='nav'>
-        <Filtre />
+        <Navtop />
 
         <Icon />
     </div>
