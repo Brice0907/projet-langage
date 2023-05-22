@@ -7,6 +7,7 @@ import Documentation from './pages/documentation/documentation';
 import Main from './pages/main/main'
 import Error from './pages/error/error';
 import Question from './pages/question/question';
+import Difficulte from './pages/difficulte/difficulte';
 import './index.css'
 
 const router = createBrowserRouter([
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       },
       {
         path: '/main/:id',
+        element: <Difficulte />
+      },
+      {
+        path: '/main/:id/:id',
         element: <Question />
       },
       {
