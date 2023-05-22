@@ -5,8 +5,6 @@ import html from './assets/html.png';
 
 export default function Langage() {
 
-
-
     return <>
         <h2 className="titlemain">Langages :</h2>
         <div className="titlemain_line"></div>
