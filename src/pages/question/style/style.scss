@@ -6,7 +6,7 @@
         width: 500px;
         margin: auto;
         margin-top: 300px;
-        margin-left: 535px;
+        padding-right: 160px;
 
         &_title {
             text-align: center;
@@ -39,6 +39,29 @@
                 background-color: #fa1e4e;
             }
         }
+
+        &_description {
+            color: #8c7db0;
+            font-size: 18px;
+            width: 400px;
+            height: 50px;
+            margin: auto;
+            margin-top: 20px;
+
+            &_texte {
+                opacity: 0;
+
+                &_medium {
+                    margin-top: -24px;
+                    opacity: 0;
+                }
+
+                &_hard {
+                    margin-top: -24px;
+                    opacity: 0;
+                }
+            }
+        }
     }
 
 }
@@ -49,4 +72,22 @@
 
 .difficulte_bloc_btn:hover {
     transform: scale(1.05);
+}
+
+.content {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.content.visible {
+    opacity: 1;
+}
+
+.content {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.content.visible {
+    opacity: 1;
 }
