@@ -1,0 +1,15 @@
+{
+    "easy": [
+        {
+            "id": 1,
+            "test": "oui"
+        }
+    ],
+    "medium": [
+        {
+            "id": 1,
+            "test": "non"
+        }
+    ],
+    "hard": []
+}

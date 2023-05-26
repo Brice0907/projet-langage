@@ -1,14 +1,27 @@
 import './style/style.scss'
 import Nav from '../../components/nav/nav'
 import { useState } from 'react'
+import Easy from '../../components/easy/easy'
+import { useLoaderData } from 'react-router-dom'
 
 export default function Question() {
+
+    const question = useLoaderData()
+
 
     const [levelIndex, setLevelIndex] = useState('')
 
     const [easyIndex, setEasyIndex] = useState(false);
     const [mediumIndex, setMediumIndex] = useState(false);
     const [hardIndex, setHardIndex] = useState(false);
+
+    // console.log(question.levelIndex[0].test);
+
+    if (levelIndex === '') {
+        console.log('ya rien');
+    } else if (levelIndex === 'easy') {
+        console.log(question.easy);
+    }
 
     if (levelIndex === "") {
         return <div className='difficulte'>
@@ -42,8 +55,15 @@ export default function Question() {
                 </div>
             </div>
         </div>
-    } else if (levelIndex != "") {
-        return <>Win</>
+    } else if (levelIndex === "easy") {
+        return <div className='display'>
+            <Nav />
+            <Easy question={question} />
+        </div>
     }
 
+}
+
+export async function loader() {
+    return (await import('../../data/easy.json')).default
 }
