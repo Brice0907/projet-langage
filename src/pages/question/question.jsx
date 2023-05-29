@@ -8,9 +8,10 @@ export default function Question() {
 
     const question = useLoaderData()
 
-
+    // Pour savoir quel niveau on a selectioné
     const [levelIndex, setLevelIndex] = useState('')
 
+    // Pour le Hover
     const [easyIndex, setEasyIndex] = useState(false);
     const [mediumIndex, setMediumIndex] = useState(false);
     const [hardIndex, setHardIndex] = useState(false);
@@ -64,6 +65,7 @@ export default function Question() {
 
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export async function loader() {
     return (await import('../../data/easy.json')).default
 }

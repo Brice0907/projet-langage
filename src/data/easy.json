@@ -1,15 +1,36 @@
 {
-    "easy": [
+    "react": [
         {
             "id": 1,
-            "test": "oui"
+            "question": "Qu'est-ce que React ?",
+            "reponse": [
+                {
+                    "texte": "Une méthode de cryptographie",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "Un système de gestion de bases de données",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "Une bibliothèque pour construire des interfaces utilisateur",
+                    "valeur": "true"
+                },
+                {
+                    "texte": "Un langage de programmation",
+                    "valeur": "true"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "c'est la question 2222222222222"
         }
     ],
-    "medium": [
+    "html": [
         {
             "id": 1,
-            "test": "non"
+            "question": "c'est la question 11111111111"
         }
-    ],
-    "hard": []
+    ]
 }
