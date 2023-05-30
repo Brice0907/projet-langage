@@ -16,14 +16,6 @@ export default function Question() {
     const [mediumIndex, setMediumIndex] = useState(false);
     const [hardIndex, setHardIndex] = useState(false);
 
-    // console.log(question.levelIndex[0].test);
-
-    if (levelIndex === '') {
-        console.log('ya rien');
-    } else if (levelIndex === 'easy') {
-        console.log(question.easy);
-    }
-
     if (levelIndex === "") {
         return <div className='difficulte'>
             <Nav />

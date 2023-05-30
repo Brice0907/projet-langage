@@ -5,7 +5,7 @@ export default function easy({ question }) {
 
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const { id } = useParams();
-    let numerotage = 1
+    let numerotage = 0
     console.log(question[id]);
 
     return <div>

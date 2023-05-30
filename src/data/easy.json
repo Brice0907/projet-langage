@@ -18,19 +18,209 @@
                 },
                 {
                     "texte": "Un langage de programmation",
-                    "valeur": "true"
+                    "valeur": "false"
                 }
             ]
         },
         {
             "id": 2,
-            "question": "c'est la question 2222222222222"
+            "question": "Comment créez-vous un composant fonctionnel en React ?",
+            "reponse": [
+                {
+                    "texte": "En utilisant la syntaxe class",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "En utilisant la syntaxe function",
+                    "valeur": "true"
+                },
+                {
+                    "texte": "En utilisant la syntaxe const",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "En utilisant la syntaxe let",
+                    "valeur": "false"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Comment gérez-vous l'état d'un composant en React ?",
+            "reponse": [
+                {
+                    "texte": "En utilisant des variables globales",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "En utilisant des méthodes de cycle de vie spécifiques",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "En utilisant le hook useEffect",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "En utilisant le hook useState",
+                    "valeur": "true"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "Quelle est la différence entre les composants fonctionnels et les composants de classe en React ?",
+            "reponse": [
+                {
+                    "texte": "Les composants fonctionnels utilisent la syntaxe ES6, tandis que les composants de classe utilisent la syntaxe ES5",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "Les composants fonctionnels ne peuvent pas gérer l'état, tandis que les composants de classe le peuvent",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "Les composants fonctionnels sont plus rapides que les composants de classe",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "Les composants fonctionnels sont définis comme des fonctions, tandis que les composants de classe sont définis comme des classes",
+                    "valeur": "true"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Comment effectuez-vous le rendu conditionnellement d'un élément en React ?",
+            "reponse": [
+                {
+                    "texte": "En utilisant des opérateurs de rendu conditionnel, comme l'opérateur ternaire ou les opérateurs logiques && et ||",
+                    "valeur": "true"
+                },
+                {
+                    "texte": "En utilisant une déclaration if/else classique",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "En utilisant la méthode ReactDOM.renderConditional()",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "En utilisant la méthode renderIf()",
+                    "valeur": "false"
+                }
+            ]
         }
     ],
     "html": [
         {
             "id": 1,
-            "question": "c'est la question 11111111111"
+            "question": "Quelle balise HTML est utilisée pour créer un lien hypertexte ?",
+            "reponse": [
+                {
+                    "texte": "<link>",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "<a>",
+                    "valeur": "true"
+                },
+                {
+                    "texte": "<h1>",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "<img>",
+                    "valeur": "false"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "Quelle balise HTML est utilisée pour créer un titre de niveau 1 ?",
+            "reponse": [
+                {
+                    "texte": "<title>",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "<h2>",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "<h1>",
+                    "valeur": "true"
+                },
+                {
+                    "texte": "<head>",
+                    "valeur": "false"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Quelle balise HTML est utilisée pour insérer une image ?",
+            "reponse": [
+                {
+                    "texte": "<img>",
+                    "valeur": "true"
+                },
+                {
+                    "texte": "<div>",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "<p>",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "<span>",
+                    "valeur": "false"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "Quelle balise HTML est utilisée pour créer une liste non ordonnée ?",
+            "reponse": [
+                {
+                    "texte": "<ul>",
+                    "valeur": "true"
+                },
+                {
+                    "texte": "<ol>",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "<li>",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "<ul> et <ol>",
+                    "valeur": "false"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Quelle balise HTML est utilisée pour définir un paragraphe ?",
+            "reponse": [
+                {
+                    "texte": "<div>",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "<span>",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "<p>",
+                    "valeur": "true"
+                },
+                {
+                    "texte": "<h1>",
+                    "valeur": "false"
+                }
+            ]
         }
     ]
 }
