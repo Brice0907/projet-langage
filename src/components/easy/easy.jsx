@@ -14,13 +14,16 @@ export default function easy({ question }) {
     // faire une fonction pour le bouton suivant/valider qui vérifie si la reponse séléctionner a la valeur true en faisant un find()
     // si la reponse est true on ajoute 1 au score et on passe a la question suivant, sans oublier de mettre le usestate de sélection a zero
 
-    return <div>
-        <div>Question {question[id][numerotage].id} : </div>
-        <div>{question[id][numerotage].question}</div>
+    return <div className="question">
+        <div className="question_bloc">
+            <div className="question_bloc_title">Question {question[id][numerotage].id} : </div>
+            <div>{question[id][numerotage].question}</div>
+        </div>
 
-        <div>
+
+        <div className="question_btn">
             {question[id][numerotage].reponse.map((reponse, index) => (
-                <div key={index}>
+                <div className="question_btn_reponse" key={index}>
                     {reponse.texte}
                 </div>
             ))}
