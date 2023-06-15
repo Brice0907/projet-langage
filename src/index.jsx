@@ -6,9 +6,9 @@ import User from './pages/user/user'
 import Documentation from './pages/documentation/documentation';
 import Main from './pages/main/main'
 import Error from './pages/error/error';
-import Question, { loader as questionLoader } from './pages/question/question';
+import Question from './pages/question/question';
 import './index.css'
-
+// { loader as questionLoader }
 const router = createBrowserRouter([
   {
     path: '/',
@@ -25,7 +25,7 @@ const router = createBrowserRouter([
       {
         path: '/main/:id',
         element: <Question />,
-        loader: questionLoader
+        // loader: questionLoader
       },
       {
         path: '/user',

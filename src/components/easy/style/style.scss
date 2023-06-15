@@ -5,10 +5,22 @@
     color: #8c7db0;
     font-size: 19px;
     font-weight: 500;
+    background: black;
+    padding: 1px;
+
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background-image: linear-gradient(black, black),
+        linear-gradient(to right, #8c7db0, #fa1e4e);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
 
     &_bloc {
         display: flex;
         font-size: 21px;
+        height: 60px;
+        margin: 20px;
+        margin-bottom: 0px;
 
         &_title {
             margin-right: 5px;
@@ -19,7 +31,7 @@
     &_btn {
         display: flex;
         flex-wrap: wrap;
-        width: 500px;
+        width: 470px;
         margin: auto;
 
         &_reponse {
@@ -29,20 +41,42 @@
             text-align: center;
             font-weight: 600;
             padding: 5px;
-            margin: 10px;
+            margin: 20px;
             color: black;
             background-color: #fa1e4e;
             border-radius: 3px;
             transition-duration: 0.3s;
+            cursor: pointer;
         }
 
         &_reponse:hover {
-            background-color: #fa1e4ed3;
             transform: scale(1.06);
+        }
+    }
+
+    &_valid {
+        border-radius: 10px;
+        background: #fa1e4e;
+        color: black;
+        font-weight: 600;
+        width: 150px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 30px;
+        cursor: pointer;
+        margin-right: 10px;
+        margin-bottom: 20px;
+
+        &_logo {
+            margin-left: 10px;
         }
     }
 }
 
 .selected {
     background-color: rgb(71, 207, 71);
+    transform: scale(0.95);
 }

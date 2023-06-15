@@ -2,11 +2,12 @@ import './style/style.scss'
 import Nav from '../../components/nav/nav'
 import { useState } from 'react'
 import Easy from '../../components/easy/easy'
-import { useLoaderData } from 'react-router-dom'
+// import { useLoaderData } from 'react-router-dom'
+import questionsData from '../../data/easy.json'
 
 export default function Question() {
 
-    const question = useLoaderData()
+    const question = questionsData
 
     // Pour savoir quel niveau on a selectioné
     const [levelIndex, setLevelIndex] = useState('')
@@ -57,7 +58,7 @@ export default function Question() {
 
 }
 
-// eslint-disable-next-line react-refresh/only-export-components
-export async function loader() {
-    return (await import('../../data/easy.json')).default
-}
+// // eslint-disable-next-line react-refresh/only-export-components
+// export async function loader() {
+//     return (await import('../../data/easy.json')).default
+// }

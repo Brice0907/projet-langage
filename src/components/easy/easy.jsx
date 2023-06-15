@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 import "./style/style.scss"
 import { useParams } from "react-router-dom";
 
-export default function easy({ question }) {
+export default function Easy({ question }) {
 
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const { id } = useParams();
@@ -39,14 +40,17 @@ export default function easy({ question }) {
 
         <div className="question_btn">
             {question[id][currentQuestion].reponse.map((reponse, index) => (
-                <div className={`question_btn_reponse ${selectedReponse === reponse ? 'selected' : ''}`} // modifier le css pour l'élément sélectionné et le hover
+                <div className={`question_btn_reponse ${selectedReponse === reponse ? 'selected' : ''}`} // modifier le css car ca rend bizarre et le hover
                     key={index}
                     onClick={() => handleClick(reponse)}>
                     {reponse.texte}
                 </div>
             ))}
         </div>
-        <div className="" onClick={handleNext}>Valider</div>
+        <div className="question_valid" onClick={handleNext}>
+            Valider
+            <i className="fa-solid fa-arrow-right question_valid_logo"></i>
+        </div>
     </div>
 }
 
