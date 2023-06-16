@@ -7,7 +7,6 @@
     font-weight: 500;
     background: black;
     padding: 1px;
-
     border: 1px solid transparent;
     border-radius: 15px;
     background-image: linear-gradient(black, black),
@@ -25,17 +24,18 @@
         &_title {
             margin-right: 5px;
             margin-bottom: 70px;
+            white-space: nowrap;
         }
     }
 
     &_btn {
         display: flex;
         flex-wrap: wrap;
-        width: 470px;
+        width: 520px;
         margin: auto;
 
         &_reponse {
-            width: 185px;
+            width: 210px;
             display: flex;
             align-items: center;
             text-align: center;
@@ -69,10 +69,16 @@
         cursor: pointer;
         margin-right: 10px;
         margin-bottom: 20px;
+        transition-duration: 0.3s;
 
         &_logo {
             margin-left: 10px;
         }
+    }
+
+    &_valid:hover {
+        background: #fa1e4ed3;
+        transform: scale(1.03);
     }
 }
 
