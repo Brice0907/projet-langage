@@ -222,5 +222,117 @@
                 }
             ]
         }
+    ],
+    "php": [
+        {
+            "id": 1,
+            "question": "Quelle fonction est utilisée pour afficher du texte dans PHP ?",
+            "reponse": [
+                {
+                    "texte": "echo",
+                    "valeur": "true"
+                },
+                {
+                    "texte": "print",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "display",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "output",
+                    "valeur": "false"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "Comment déclarer une variable en PHP ?",
+            "reponse": [
+                {
+                    "texte": "var $variable;",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "variable = 5;",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "set $variable = 5;",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "$variable = 5;",
+                    "valeur": "true"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Quelle est la balise d'ouverture pour incorporer du code PHP dans une page HTML ?",
+            "reponse": [
+                {
+                    "texte": "<?php",
+                    "valeur": "true"
+                },
+                {
+                    "texte": "<?",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "<php>",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "<script>",
+                    "valeur": "false"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "Comment concaténer deux chaînes de caractères en PHP ?",
+            "reponse": [
+                {
+                    "texte": "string1 + string2;",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "string1 . string2;",
+                    "valeur": "true"
+                },
+                {
+                    "texte": "string1 .+ string2;",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "string1 +. string2;",
+                    "valeur": "false"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Comment inclure un fichier externe dans un script PHP, qui arrête le script lorsqu'une erreur se produit ?",
+            "reponse": [
+                {
+                    "texte": "include('fichier.php');",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "import('fichier.php');",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "require('fichier.php');",
+                    "valeur": "true"
+                },
+                {
+                    "texte": "load('fichier.php');",
+                    "valeur": "false"
+                }
+            ]
+        }
     ]
 }
