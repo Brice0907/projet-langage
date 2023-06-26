@@ -334,5 +334,117 @@
                 }
             ]
         }
+    ],
+    "symfony": [
+        {
+            "id": 1,
+            "question": "Qu'est-ce que Symfony ?",
+            "reponse": [
+                {
+                    "texte": "Un CMS populaire",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "Un framework de développement web",
+                    "valeur": "true"
+                },
+                {
+                    "texte": "Un langage de programmation",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "Un système de gestion de bases de données",
+                    "valeur": "false"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "Quelle est la structure de répertoires standard d'une application Symfony ?",
+            "reponse": [
+                {
+                    "texte": "app, src, tests, vendor",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "public, src, tests, vendor",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "config, src, tests, vendor",
+                    "valeur": "true"
+                },
+                {
+                    "texte": "bin, src, tests, vendor",
+                    "valeur": "false"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Comment créer un nouveau contrôleur facilement dans Symfony ?",
+            "reponse": [
+                {
+                    "texte": "Utiliser la commande symfony make:controller",
+                    "valeur": "true"
+                },
+                {
+                    "texte": "Utiliser la commande php artisan make:controller",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "Écrire manuellement le fichier du contrôleur dans le répertoire approprié",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "Aucune des réponses ci-dessus",
+                    "valeur": "false"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "Comment définir une route dans Symfony ?",
+            "reponse": [
+                {
+                    "texte": "Modifier le fichier .htaccess",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "Utiliser la commande symfony make:route",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "Écrire une annotation dans l'entête du contrôleur",
+                    "valeur": "true"
+                },
+                {
+                    "texte": "Modifier le fichier de configuration du routage",
+                    "valeur": "false"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Quel est le moteur de templates par défaut utilisé dans Symfony ?",
+            "reponse": [
+                {
+                    "texte": "Twig",
+                    "valeur": "true"
+                },
+                {
+                    "texte": "Blade",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "Smarty",
+                    "valeur": "false"
+                },
+                {
+                    "texte": "PHP natif",
+                    "valeur": "false"
+                }
+            ]
+        }
     ]
 }
